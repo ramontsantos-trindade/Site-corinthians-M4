@@ -1,10 +1,10 @@
-body{
+body {
     margin: 0;
-    background-color: rgb(204, 204, 204);
+    background-color: rgb(0, 0, 0);
 }
 
 
-nav{
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -16,23 +16,41 @@ nav{
 }
 
 
-#icon{
-width: 65px;
-height: 65px;
+#icon {
+    width: 65px;
+    height: 65px;
 
 }
 
+#noticias {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
 
-.noticia{
-background-color: rgb(0, 0, 0);
-color: white;
-border: 5px solid rgb(223, 0, 0);
+.noticia {
+    margin: 10px;
+
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 15px;
 
 
 }
 
-.img_noticia{
-border-radius: 50px;
-width: 400px;
+.img_noticia {
+    border-radius: 50px;
+    width: 400px;
+
+}
+
+footer{
+   color: white;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    
+    
 
 }
