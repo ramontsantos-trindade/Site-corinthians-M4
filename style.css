@@ -58,28 +58,29 @@ footer{
 
 #titulo_escalacao{
 
-    align-items: center;
+    text-align: center;
     color: white;
 }
 
 h5{
-    align-items: center;
+    text-align: center;
     color: white;
 }
 
-#jogadores{
-
+.jogadores{
+    
    display: flex;
    align-items: flex-start;
    justify-content: space-around;
 }
 
 .escalacao{
-
+    width: 50px;
     text-align: center;
     border-radius: 40px;
     background-color: rgb(0, 0, 0);
     margin: 40px;
+    
 }
 
 #mascote{
@@ -87,5 +88,8 @@ h5{
     right: 0px;
     bottom: -30px;
     position: fixed;
+    width: 100px;
+    height: 100px;
 }
+
 
