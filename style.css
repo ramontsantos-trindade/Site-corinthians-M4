@@ -46,11 +46,12 @@ nav {
 }
 
 footer{
-   color: white;
+   color: rgb(0, 0, 0);
     padding: 10px;
     align-items: center;
     text-align: center;
     
+    background-color: white;
     
 
 }
